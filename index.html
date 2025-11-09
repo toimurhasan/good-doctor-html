@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/5413de74dc.js" crossorigin="anonymous"></script>
     <!-- Tailwindcss CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Custom CSS -->
@@ -21,13 +23,14 @@
     </style>
   </head>
   <body class="max-w-screen-xl mx-auto">
+    <!-- Navbar -->
     <nav class="flex items-center justify-between py-4">
       <!-- Good Doctor Logo -->
       <div class="text-2xl font-thin"><span class="text-blue-500 font-bold">GOOD</span>DOCTOR</div>
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-6">
         <!-- Menu -->
         <div class="flex gap-4">
-          <div class="cursor-pointer hover:text-blue-600">Home</div>
+          <div class="cursor-pointer text-blue-600">Home</div>
           <div class="cursor-pointer hover:text-blue-600">Find Doctor</div>
           <div class="cursor-pointer hover:text-blue-600">Order Medicine</div>
           <div class="cursor-pointer hover:text-blue-600">Specialties</div>
@@ -45,5 +48,17 @@
         </div>
       </div>
     </nav>
+
+    <!-- Breadcrumb -->
+    <div class="flex items-center gap-2">
+      <i class="fa-solid fa-house"></i>
+      <div>Home</div>
+      <i class="fa-solid fa-chevron-right"></i>
+      <div>Doctor</div>
+      <i class="fa-solid fa-chevron-right"></i>
+      <div>Book Appointment</div>
+    </div>
+    <!-- Banner Heading -->
+    <h2 class="text-3xl font-bold">Almost Done! Let's Finalize Your Appointment</h2>
   </body>
 </html>
